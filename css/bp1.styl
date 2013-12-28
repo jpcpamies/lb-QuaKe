@@ -35,10 +35,7 @@ header
 	background rgba(black,.1)
 	display block
 	height 120px
-	left 0px
-	position absolute
-	top 45px
-	right 0px
+	margin 45px 0 0 0
 	width 100%
 
 nav
@@ -83,11 +80,63 @@ nav
 					top -4px
 
 .eventActual
-	background rgba(iconos,.8)
+	background rgba(secundario,.8)
 	display block
 	height auto
-	left 0px
+	padding .8em 0 .5em 0
 	position relative
-	top 165px
-	right 0px
 	width 100%
+	.event
+		color white
+		font-weight 300
+		margin -.15em margenMovil .8em 100px
+	.hora
+		color white
+		display inline-block
+		float left
+		font-size .73em
+		font-weight 300
+		margin 0 10px
+		width 75px
+		.horaInici
+			float left
+			p
+				&:after
+					content ' -'
+		.horaFi
+			float left
+			p
+				&:after
+					content 'h'
+		
+	.titol
+		font-size .75em
+		position absolute
+		right 1em
+		text-transform uppercase 
+		top -2.2em
+		&:after
+				border-top solid 1em transparent
+				border-left solid .45em transparent
+				border-bottom solid .6em rgba(secundario,.8)
+				border-right solid .45em transparent
+				content ""
+				right 3.3em
+				position absolute
+				top .65em
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
