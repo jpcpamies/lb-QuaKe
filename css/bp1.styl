@@ -96,6 +96,59 @@ nav
 					right -33px
 					top -4px
 
+section
+	.event
+		background rgba(black,.6)
+		bottom 40px
+		left 0px
+		position relative
+		overflow-y auto
+		right 0px
+		top 0px
+		width 100%
+		&:last-child
+			margin 0 0 40px 0
+			
+		.detall
+			border-bottom 2px solid rgba(white,.5)
+			font-weight 300
+			margin 1em .7em 1em 2em
+			.hora
+				color white
+				float left
+				width 55px
+			.lloc
+				color gris
+				font-size .7em
+				letter-spacing .13em
+				line-height 2em
+				text-transform uppercase
+				p
+					&:after
+						content '\e608'
+						font-family icono
+						margin 0 0 0 .2em
+		.contingut
+			margin 1em .7em 1em 2em
+			.titolEvent
+				font-weight 400
+				margin -.7em 1.6em .7em .7em
+				position relative
+				p
+					&:after
+						content '\e600'
+						font-family icono
+						position absolute 
+						right -20px
+						top 2px
+			.detallEvent
+				font-size .8em
+				font-weight 300
+				margin 1em -1em 1em 2em
+				p
+					&:after
+						display none
+
 .eventActual
 	background secundario
 	display block
