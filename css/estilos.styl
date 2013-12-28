@@ -1,0 +1,75 @@
+
+@import "reset.styl"
+
+// Margenes =========================================
+margenMovil = 20px
+
+// Fuentes =========================================
+principal = 'Lato', sans-serif;
+
+// Colores =========================================
+principal = rgba(#e8eaed,.65)
+secundario = #5a6171
+rosa = #d1505f
+iconos = #353535
+
+// @font-face ======================================
+@font-face {
+    font-family: 'icono';
+    src:url('../fonts/icomoon.eot');
+    src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf') format('truetype'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+// .icon-lines:before {
+//     content: "\e60a";
+// }
+// .icon-calendar:before {
+//     content: "\e60e";
+// }
+// .icon-location:before {
+//     content: "\e608";
+// }
+// .icon-angle-right:before {
+//     content: "\e607";
+// }
+// .icon-angle-down:before {
+//     content: "\e600";
+// }
+// .icon-map:before {
+//     content: "\e60b";
+// }
+
+
+body
+    color iconos
+    font-family lato
+    font-size 16px
+    font-weight 400
+
+// h1
+    
+// h2
+    
+// h3
+    
+// p
+
+
+::selection
+    background yellow
+    color black
+
+// Break points ====================================
+
+// @media screen and (min-width: 880px) 
+//     @import "bp3.styl"
+
+// @media screen and (max-width: 880px) 
+//     @import "bp2.styl"
+
+@media screen and (max-width: 769px) 
+    @import "bp1.styl"

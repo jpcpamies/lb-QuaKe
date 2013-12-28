@@ -1,0 +1,93 @@
+
+footer
+	background principal
+	border-top 1px solid rgba(iconos,1)
+	height 40px
+	position fixed
+	width 100%
+	bottom 0px
+	left 0px
+	right 0px
+	.bottom
+		position relative
+		p
+			font-size .75em
+			letter-spacing .13em
+			line-height 3.2em
+			text-align center
+			text-transform uppercase
+			&:after
+				bottom 2px
+				content '\e607'
+				font-family icono
+				font-size 2.7em
+				right 10px
+				position absolute
+			&:before
+				bottom 0px
+				content '\e60b'
+				font-family icono
+				font-size 2em
+				left 10px
+				position absolute
+
+header
+	background rgba(black,.1)
+	display block
+	height 120px
+	left 0px
+	position absolute
+	top 45px
+	right 0px
+	width 100%
+
+nav
+	background principal
+	border-bottom 1px solid rgba(iconos,.1)
+	height 45px
+	left 0px
+	position fixed
+	right 0px
+	top 0px
+	width 100%
+	.navIzquierda
+		display inline-block 
+		float left
+		position relative
+		width 50%
+		.ajustos
+			p
+				left 40px
+				position absolute
+				top 12px
+				&:before
+					content '\e60a'
+					font-family icono
+					font-size 2em
+					left -35px
+					position absolute
+					top -4px
+	.navDerecha
+		position relative
+		.calendari
+			p
+				position absolute
+				right 42px
+				top 12px
+				&:after
+					content '\e60e'
+					font-family icono
+					font-size 1.5em
+					position absolute
+					right -33px
+					top -4px
+
+.eventActual
+	background rgba(iconos,.8)
+	display block
+	height auto
+	left 0px
+	position relative
+	top 165px
+	right 0px
+	width 100%

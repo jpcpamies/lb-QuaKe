@@ -1,0 +1,125 @@
+
+/* line 1 : /Applications/CodeKit.app/Contents/Resources/engines/stylus/lib/functions/index.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/stylus\/lib\/functions\/index\.styl}line{font-family:\000031}}
+
+/* line 2 : /Users/jordiimac/Documents/QuaKe/css/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/reset\.styl}line{font-family:\000032}}
+
+/* line 2 : /Users/jordiimac/Documents/QuaKe/css/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/reset\.styl}line{font-family:\000032}}
+html,body,body div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,hgroup,menu,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+/* line 14 : /Users/jordiimac/Documents/QuaKe/css/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/reset\.styl}line{font-family:\0000314}}
+code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}
+
+/* line 18 : /Users/jordiimac/Documents/QuaKe/css/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/reset\.styl}line{font-family:\0000318}}
+pre{white-space:pre-wrap}
+
+/* line 17 : /Users/jordiimac/Documents/QuaKe/css/estilos.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/estilos\.styl}line{font-family:\0000317}}
+@font-face{font-family:'icono';src:url("../fonts/icomoon.eot");src:url("../fonts/icomoon.eot?#iefix") format('embedded-opentype'),url("../fonts/icomoon.ttf") format('truetype'),url("../fonts/icomoon.woff") format('woff'),url("../fonts/icomoon.svg#icomoon") format('svg');font-weight:normal;font-style:normal}
+
+/* line 44 : /Users/jordiimac/Documents/QuaKe/css/estilos.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/estilos\.styl}line{font-family:\0000344}}
+body{color:#353535;font-family:lato;font-size:16px;font-weight:400}
+
+/* line 59 : /Users/jordiimac/Documents/QuaKe/css/estilos.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/estilos\.styl}line{font-family:\0000359}}
+::selection{background:#ff0;color:#000}
+
+/* line 71 : /Users/jordiimac/Documents/QuaKe/css/estilos.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/estilos\.styl}line{font-family:\0000371}}
+@media screen and (max-width: 769px){
+/* line 2 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\000032}}
+
+/* line 2 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\000032}}
+footer{background:rgba(232,234,237,0.65);border-top:1px solid #353535;height:40px;position:fixed;width:100%;bottom:0;left:0;right:0;}
+
+/* line 11 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000311}}
+footer .bottom{position:relative;}
+
+/* line 13 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000313}}
+footer .bottom p{font-size:.75em;letter-spacing:.13em;line-height:3.2em;text-align:center;text-transform:uppercase;}
+
+/* line 19 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000319}}
+footer .bottom p:after{bottom:2px;content:'\e607';font-family:icono;font-size:2.7em;right:10px;position:absolute}
+
+/* line 26 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000326}}
+footer .bottom p:before{bottom:0;content:'\e60b';font-family:icono;font-size:2em;left:10px;position:absolute}
+
+/* line 34 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000334}}
+header{background:rgba(0,0,0,0.1);display:block;height:120px;left:0;position:absolute;top:45px;right:0;width:100%}
+
+/* line 44 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000344}}
+nav{background:rgba(232,234,237,0.65);border-bottom:1px solid rgba(53,53,53,0.1);height:45px;left:0;position:fixed;right:0;top:0;width:100%;}
+
+/* line 53 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000353}}
+nav .navIzquierda{display:inline-block;float:left;position:relative;width:50%;}
+
+/* line 58 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000358}}
+
+/* line 59 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000359}}
+nav .navIzquierda .ajustos p{left:40px;position:absolute;top:12px;}
+
+/* line 63 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000363}}
+nav .navIzquierda .ajustos p:before{content:'\e60a';font-family:icono;font-size:2em;left:-35px;position:absolute;top:-4px}
+
+/* line 70 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000370}}
+nav .navDerecha{position:relative;}
+
+/* line 72 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000372}}
+
+/* line 73 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000373}}
+nav .navDerecha .calendari p{position:absolute;right:42px;top:12px;}
+
+/* line 77 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000377}}
+nav .navDerecha .calendari p:after{content:'\e60e';font-family:icono;font-size:1.5em;position:absolute;right:-33px;top:-4px}
+
+/* line 85 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\0000385}}
+.eventActual{background:rgba(53,53,53,0.8);display:block;height:auto;left:0;position:relative;top:165px;right:0;width:100%}
+}
