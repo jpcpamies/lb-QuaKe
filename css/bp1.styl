@@ -80,7 +80,7 @@ nav
 					top -4px
 
 .eventActual
-	background rgba(secundario,.8)
+	background secundario
 	display block
 	height auto
 	padding .8em 0 .5em 0
@@ -88,8 +88,20 @@ nav
 	width 100%
 	.event
 		color white
-		font-weight 300
+		font-weight 400
 		margin -.15em margenMovil .8em 100px
+		.lloc
+			color gris
+			font-size .7em
+			font-weight 300
+			letter-spacing .13em
+			margin .5em 0 0 0
+			text-transform uppercase
+			p
+				&:after
+					content '\e608'
+					font-family icono
+					margin 0 0 0 .2em
 	.hora
 		color white
 		display inline-block
@@ -118,7 +130,7 @@ nav
 		&:after
 				border-top solid 1em transparent
 				border-left solid .45em transparent
-				border-bottom solid .6em rgba(secundario,.8)
+				border-bottom solid .6em secundario
 				border-right solid .45em transparent
 				content ""
 				right 3.3em
