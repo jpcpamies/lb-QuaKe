@@ -8,6 +8,7 @@ footer
 	bottom 0px
 	left 0px
 	right 0px
+	z-index 2
 	.bottom
 		position relative
 		p
@@ -32,15 +33,15 @@ footer
 				position absolute
 
 header
-	background rgba(black,.1)
 	display block
-	height 83px
+	height 120px
 	margin 45px 0 0 0
 	width 100%
 	.data
-		position relative
+		color white
 		font-size 1.75em
 		font-weight 300
+		position relative
 		.dia
 			left 25px
 			position absolute
@@ -64,6 +65,7 @@ nav
 	right 0px
 	top 0px
 	width 100%
+	z-index 2
 	.navIzquierda
 		display inline-block 
 		float left
@@ -97,8 +99,11 @@ nav
 					top -4px
 
 section
+	background-image url(../img/fondo2.jpg)
+	background-size 100% 100%
+	// background-position 0 -300px
 	.event
-		background rgba(black,.6)
+		background rgba(white,.7)
 		bottom 40px
 		left 0px
 		position relative
@@ -110,15 +115,14 @@ section
 			margin 0 0 40px 0
 			
 		.detall
-			border-bottom 2px solid rgba(white,.5)
+			color white
+			border-bottom 3px solid rgba(white,.5)
 			font-weight 300
-			margin 1em .7em 1em 2em
+			margin .85em .7em 1em 2em
 			.hora
-				color white
 				float left
 				width 55px
 			.lloc
-				color gris
 				font-size .7em
 				letter-spacing .13em
 				line-height 2em
@@ -129,22 +133,23 @@ section
 						font-family icono
 						margin 0 0 0 .2em
 		.contingut
-			margin 1em .7em 1em 2em
+			margin 1em .7em 0em 2em
 			.titolEvent
 				font-weight 400
-				margin -.7em 1.6em .7em .7em
+				margin -.7em 1.8em .7em .7em
 				position relative
 				p
 					&:after
 						content '\e600'
 						font-family icono
+						font-size 1.3em
 						position absolute 
 						right -20px
-						top 2px
+						top 0px
 			.detallEvent
 				font-size .8em
 				font-weight 300
-				margin 1em -1em 1em 2em
+				margin 1em -1em 0em 2em
 				p
 					&:after
 						display none
@@ -153,17 +158,16 @@ section
 	background secundario
 	display block
 	height auto
+	font-weight 300
 	padding 1em 0 .5em 0
 	position relative
 	width 100%
 	.event
 		color white
-		font-weight 400
 		margin -.15em margenMovil .8em 100px
 		.lloc
 			color gris
 			font-size .7em
-			font-weight 300
 			letter-spacing .13em
 			margin .5em 0 0 0
 			text-transform uppercase
@@ -190,9 +194,10 @@ section
 			p
 				&:after
 					content 'h'
-		
 	.titol
+		color white
 		font-size .75em
+		font-weight 300
 		position absolute
 		right 1em
 		text-transform uppercase 
@@ -207,6 +212,11 @@ section
 				position absolute
 				top 1.05em
 
+.fondo
+	background-image url(../img/fondo.jpg)
+	background-size 100% auto
+	background-position 0 -55px
+	
 
 
 
