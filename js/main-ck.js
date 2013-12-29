@@ -1,2 +1,2 @@
 // Script event actual fixed movil
-var num=95;$(window).bind("scroll",function(){$(window).scrollTop()>num?$(".eventActual").addClass("fixed"):$(".eventActual").removeClass("fixed")});
+var evento=95;$(window).bind("scroll",function(){$(window).scrollTop()>evento?$(".eventActual").addClass("fixed"):$(".eventActual").removeClass("fixed")});var inicio=95;$(window).bind("scroll",function(){$(window).scrollTop()>inicio?$(".boton").addClass("inici"):$(".boton").removeClass("inici")});
