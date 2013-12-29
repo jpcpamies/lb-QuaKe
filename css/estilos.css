@@ -307,5 +307,15 @@ section .event .contingut .detallEvent p:after{display:none}
 /* line 230 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\00003230}}
-.fixed{left:0;position:fixed;right:0;top:45px}
+.fixed{border-top:25px solid #353535;left:0;position:fixed;right:0;top:45px;z-index:2;transtition:all .2s ease;-webkit-transtition:all .2s ease;}
+
+/* line 239 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\00003239}}
+.fixed .titol{position:absolute;right:40%;top:-20px;}
+
+/* line 243 : /Users/jordiimac/Documents/QuaKe/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/QuaKe\/css\/bp1\.styl}line{font-family:\00003243}}
+.fixed .titol:after{display:none}
 }
